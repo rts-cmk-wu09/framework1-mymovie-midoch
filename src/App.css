@@ -1,7 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Mulish:wght@300&display=swap");
+
+body {
+  margin: 0;
+}
+
 #root {
   max-width: 768px;
   padding: 2rem;
-  text-align: center;
+  font-family: "Mulish", sans-serif;
 }
 
 .flexContainer {
@@ -10,4 +16,31 @@
 
 .space-between {
   justify-content: space-between;
+  align-items: center;
+}
+
+h1,
+h2 {
+  font-family: "Merriweather", serif;
+}
+
+.scroll {
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.movieCardContainer {
+  margin: 0 -2rem;
+  gap: 1rem;
+  padding-left: 25px;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
 }
