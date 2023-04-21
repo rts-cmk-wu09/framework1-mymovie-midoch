@@ -5,11 +5,10 @@ import MovieRating from "../components/MovieRating";
 const MovieCard = () => {
   return (
     <article>
-      <figure>
-        <Image />
-        <HeadingTree />
-        <MovieRating />
-      </figure>
+      <figure></figure>
+      <Image />
+      <HeadingTree />
+      <MovieRating />
     </article>
   );
 };
