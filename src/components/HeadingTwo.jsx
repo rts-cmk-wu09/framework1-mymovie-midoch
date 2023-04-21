@@ -1,5 +1,12 @@
+import styled from "styled-components";
+
+const Heading = styled.h2`
+  font-size: 16px;
+  color: #110e47;
+`;
+
 const HeadingTwo = () => {
-  return <h2>Now Showing</h2>;
+  return <Heading>Now Showing</Heading>;
 };
 
 export default HeadingTwo;
